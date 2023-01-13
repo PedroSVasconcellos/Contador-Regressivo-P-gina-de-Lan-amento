@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Countdown</title>
+  </head>
+  <body>
+    <div id="logo">
+      <img src="./img/logo.png" alt="" />
+      <h1>Flamyngo</h1>
+    </div>
+    <div class="countdown-container">
+      <div class="countdown-el">
+        <p class="text" id="days">0</p>
+        <span>dias</span>
+      </div>
+      <div class="countdown-el">
+        <p class="text" id="hours">0</p>
+        <span>horas</span>
+      </div>
+      <div class="countdown-el">
+        <p class="text" id="mins">0</p>
+        <span>minutos</span>
+      </div>
+      <div class="countdown-el">
+        <p class="text" id="seconds">0</p>
+        <span>segundos</span>
+      </div>
+    </div>
+    <span class="down-txt">para o lançamento 🚀</span>
+    <form action="">
+      <label for="mail">
+        Insira seu e-mail para ser notificado(a) quando
+        <a href="/"><span class="flamingo">Flamyngo</span></a> for ao ar
+      </label>
+      <div class="mail-wrapper">
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          placeholder=" Seu e-mail aqui"
+        />
+        <button type="submit" class="seta-btn" id="btn">
+          <img src="./img/seta.svg" alt="" />
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

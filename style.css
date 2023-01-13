@@ -1,0 +1,107 @@
+/* global */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #1d1d1d;
+  color: aliceblue;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgba(229, 140, 140, 0.855);
+}
+
+/* logo  */
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+#logo img {
+  width: 60px;
+  height: max-content;
+}
+
+/* contador */
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.countdown-el {
+  text-align: center;
+  background-color: #2d2d2d;
+  padding: 2rem 1.3rem;
+  border-radius: 10px;
+}
+
+.countdown-el span {
+  font-size: 1.1rem;
+  color: rgb(117, 117, 117);
+}
+
+.down-txt {
+  color: rgb(117, 117, 117);
+  margin-bottom: 4rem;
+}
+
+/* formulario  */
+
+#mail {
+  height: 53px;
+  width: 40rem;
+  border: 0px;
+}
+
+form span {
+  display: inline-block;
+  margin-bottom: .4rem;
+}
+
+.flamingo {
+  color: rgba(229, 140, 140, 0.855);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.seta-btn {
+  background-color: rgba(229, 140, 140, 0.855);
+  padding: 14px;
+  border: 0px;
+}
+
+form label {
+  display: flex;
+  justify-content: center;
+  color: rgb(117, 117, 117);
+}
+
+.mail-wrapper {
+  display: flex;
+}
